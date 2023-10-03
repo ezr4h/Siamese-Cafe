@@ -1,0 +1,68 @@
+
+body{
+    /* width: 5%;
+    background-image: url(background.svg);
+    margin: 0; */
+    font: 0.9em/1.5em "Lucida Sans", Lucida ;
+}
+/* This is our svg background 
+I also included our font which is Lucida Sans*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 18px;
+    background: rgb(69, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/*This is the header for our website that also includes the logo and navigation bar*/
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*This class contains business title*/
+.topnav a {
+    position: sticky;
+    padding-right: 80px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*This nav bar leads to the other pages imbedded in this webpage*/
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+/*This class is for our search bar and logo icon!*/
+.left, .right{
+    flex-basis: 50%
+}
+.right img{
+    width: 100%;
+}
+/*this is our image/logo which is Sammy the siamese cat*/
+.search{
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+    padding-top: 300px; 
+    padding-right: 500px;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    margin: 8px 0 30px;
+}
+.search input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+}
+/*This is our search bar which I thought would look good next to our logo icon*/
