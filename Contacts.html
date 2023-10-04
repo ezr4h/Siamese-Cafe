@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Contacts.css">
 </head>
 <body>
+    <fieldset>
+        <legend>Title</legend>
+       
+        <div>
+            <input type="radio" id="Ace" name="drone" value="Ace" />
+            <label for="Ace">Ace</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="King" name="drone" value="King" />
+            <label for="King">King</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="Queen" name="drone" value="Queen" />
+            <label for="Queen">Queen</label>
+          </div>
+    </fieldset>
     
+    <div>
+        <label for="Name" >Name:</label>
+        <strong><abbr title="Required">*</abbr></strong>
+        <input type="text" name="name" id="name" placeholder="Jane Doe">
+    </div>
+
+    <div>
+        <label for="email" >E-mail:</label>
+        <strong><abbr title="Required">*</abbr></strong>
+        <input type="text" name="password" id="email" placeholder="don't.care@gmail.com">
+    </div>
+
+    <div>
+        <label for="password" >Password:</label>
+        <strong><abbr title="Required">*</abbr></strong>
+        <input type="text" name="password" id="password" placeholder="8 or more Characters">
+    </div>
+
+    <h2>Payment information</h2>
+
+<section>
+   <p>
+    <label for="card">
+        <span>Card Type:</span>
+    </label>
+    <strong><abbr title="Required">*</abbr></strong>
+    <select name="usercard" id="card">
+        <option value="visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Amex">Amex</option>
+        <option value="Capital1">Capital One</option>
+    </select>
+   </p>
+</section>
+
+<div>
+    <label for="Card#" >Card Number:</label>
+    <strong><abbr title="Required">*</abbr></strong>
+    <input type="text" name="Card#" id="Card#" placeholder="1234 567 8900">
+</div>
+
+<label for="month">Order Date</label>
+<strong><abbr title="Required">*</abbr></strong>   
+<input type="month" name="month" id="month">
+
+<div>
+    <button type="submit">Validate the payment</button>
+</div>
+
+</form>
 </body>
 </html>
