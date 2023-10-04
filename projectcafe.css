@@ -89,7 +89,7 @@ body{
 }
 body{
     width: 100%;
-    max-width: 950px;
+    max-width: 100rem;
     background-image: url(liquid-cheese.svg);
     /* margin: 0 auto; */
 }
