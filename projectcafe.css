@@ -1,0 +1,96 @@
+
+body{
+    font: 0.9em/1.5em "Lucida Sans", Lucida ;
+}
+/*our font is Lucida Sans*/
+.header a:hover{
+    color:rgb(249, 189, 250);
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 18px;
+    background: rgb(69, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/*This is the header for our website that also includes the logo and navigation bar*/
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*This class contains business title*/
+.topnav a:hover{
+    color:rgb(249, 189, 250);
+}
+.topnav a{
+    position: sticky;
+    padding-right: 80px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*This nav bar leads to the other pages imbedded in this webpage*/
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+/*This class is for our search bar and logo icon!*/
+.left, .right{
+    flex-basis: 50%
+}
+.right img{
+    padding-left: 60%;
+    width: 100%;
+    height: 100%;
+}
+/*this is our image/logo which is Sammy the siamese cat*/
+.search{
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+    padding-top: 10px; 
+    /* padding-right: 500px; */
+    border-bottom: 1px solid rgb(54, 54, 54);
+    margin: 8px 0 30px;
+}
+.search input{
+    width: 100%;
+    margin-left: 15px;
+    background: none;
+    font: 0.9em/1.5em "Lucida Sans", Lucida ;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+}
+.left img{
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    margin-left: 20px;
+}
+.socials{ 
+    width: 10%;
+    height: 10%;
+    padding-bottom: -100%;
+    margin-left: -5px;
+}
+/*This is our search bar which I thought would look good next to our logo icon*/
+.footer{
+    font-size: 8px
+}
+body{
+    width: 100%;
+    max-width: 950px;
+    background-image: url(liquid-cheese.svg);
+    /* margin: 0 auto; */
+}
+/*This is our SVG Background*/

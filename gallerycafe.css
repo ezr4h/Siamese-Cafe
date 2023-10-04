@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    min-height: 100vh;
+    font: 0.9em/1.5em "Lucida Sans", Lucida ;
+}
+.main{
+    padding-top: 5%;
+    position: absolute;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+/*This class helps position all images*/
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+/*default settings for images so they are all even*/
+video{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+/*font is Lucida Sans*/
+.header a:hover{
+    color:rgb(249, 189, 250);
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 18px;
+    background: rgb(69, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/*This is the header for our website that also includes the logo and navigation bar*/
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*This class contains business title*/
+.topnav a:hover{
+    color:rgb(249, 189, 250);
+}
+.topnav a{
+    position: sticky;
+    padding-right: 80px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*This nav bar leads to the other pages imbedded in this webpage*/
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.footer{
+    padding-left: 3%;
+    padding-top: 55%;
+    font-size: 8px
+}
+body{
+    width: 100%;
+    background-image: url(liquid-cheese.svg);
+    margin: 0 auto;
+}
+/*SVG Background*/
