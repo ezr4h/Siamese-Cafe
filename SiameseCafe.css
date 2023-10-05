@@ -88,9 +88,10 @@ body{
     font-size: 8px
 }
 body{
-    width: 100%;
-    max-width: 950px;
+    /* width: 100%;
+    max-width: 950px; */
     background-image: url(liquid-cheese.svg);
+    background-size: 7rem;
     /* margin: 0 auto; */
 }
 /*This is our SVG Background*/
