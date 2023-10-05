@@ -1,5 +1,9 @@
 
 body{
+    background-image: url(dragon-scales.svg);
+    background-position: center;
+    background-size: contain;
+    /*This is our SVG Background*/
     font: 0.9em/1.5em "Lucida Sans", Lucida ;
 }
 /*our font is Lucida Sans*/
@@ -48,7 +52,7 @@ body{
     flex-basis: 50%
 }
 .right img{
-    padding-left: 60%;
+    padding-left: 10%;
     width: 100%;
     height: 100%;
 }
@@ -87,10 +91,3 @@ body{
 .footer{
     font-size: 8px
 }
-body{
-    width: 100%;
-    max-width: 950px;
-    background-image: url(liquid-cheese.svg);
-    /* margin: 0 auto; */
-}
-/*This is our SVG Background*/
