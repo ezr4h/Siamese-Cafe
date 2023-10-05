@@ -4,3 +4,41 @@ body {
     background-image: url(scattered-forcefields.svg);
     font: 0.9em/1.5em "Lucida Sans", Lucida ;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 18px;
+    background: rgb(69, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left, .right{
+    flex-basis: 50%
+}
+
+.topnav a {
+    position: sticky;
+    padding-right: 80px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
