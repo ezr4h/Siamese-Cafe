@@ -80,8 +80,9 @@ video{
     font-size: 8px
 }
 body{
-    width: 100%;
-    background-image: url(liquid-cheese.svg);
-    margin: 0 auto;
+    /* width: 100%; */
+    background-image: url(dragon-scales.svg);
+    background-size: 7rem;
+    /* margin: 0 auto; */
 }
 /*SVG Background*/
