@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Contacts.css">
 </head>
 <body>
+    <div class="header">
+        <a href="projectcafe.html" class="logo">Siamese Cafe</a>
+        <nav class="topnav">
+          <a href="projectcafe.html">Home</a>
+          <a href="gallerycafe.html">Gallery</a>
+          <a href="Services.html">Services</a>
+          <a href="Contacts.html">Contact</a>
+        </nav>
+      </div>
+      <div class="banner">
+        <div class="right"></div>
+        <div class="left"></div>
+      </div>
+
+      <h1>Order information</h1>
+
+    <fieldset>
+        <legend>How to you expect to recieve your order?</legend>
+       
+        <div>
+            <input type="radio" id="Pick-Up" name="drone" value="Pick-Up" />
+            <label for="Pick-Up">Pick-Up</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="Devlivery" name="drone" value="Delivery" />
+            <label for="Delivery">Delivery</label>
+          </div>
+    </fieldset>
     
+    <div>
+        <label for="Name" >Name:</label>
+        <input type="text" name="name" id="name" placeholder="Jane Doe">
+    </div>
+
+    <div>
+        <label for="email" >E-mail:</label>
+        <input type="text" name="password" id="email" placeholder="don't.care@gmail.com">
+    </div>
+
+    <div>
+        <label for="password" >Password:</label>
+        <input type="text" name="password" id="password" placeholder="8 or more Characters">
+    </div>
+
+    <h2>Payment information</h2>
+
+<section>
+   <p>
+    <label for="card">
+        <span>Card Type:</span>
+    </label>
+    <strong><abbr title="Required">*</abbr></strong>
+    <select name="usercard" id="card">
+        <option value="visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Amex">Amex</option>
+        <option value="Capital1">Capital One</option>
+    </select>
+   </p>
+</section>
+
+<div>
+    <label for="Card#" >Card Number:</label>
+    <strong><abbr title="Required">*</abbr></strong>
+    <input type="text" name="Card#" id="Card#" placeholder="1234 567 8900">
+</div>
+
+<label for="month">Order Date</label>
+<strong><abbr title="Required">*</abbr></strong>   
+<input type="month" name="month" id="month">
+
+<div>
+    <button type="submit">Submit</button>
+</div>
+
+</form>
 </body>
 </html>
