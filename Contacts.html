@@ -7,40 +7,48 @@
     <link rel="stylesheet" href="Contacts.css">
 </head>
 <body>
+    <div class="header">
+        <a href="projectcafe.html" class="logo">Siamese Cafe</a>
+        <nav class="topnav">
+          <a href="projectcafe.html">Home</a>
+          <a href="gallerycafe.html">Gallery</a>
+          <a href="Services.html">Services</a>
+          <a href="Contacts.html">Contact</a>
+        </nav>
+      </div>
+      <div class="banner">
+        <div class="right"></div>
+        <div class="left"></div>
+      </div>
+
+      <h1>Order information</h1>
+
     <fieldset>
-        <legend>Title</legend>
+        <legend>How to you expect to recieve your order?</legend>
        
         <div>
-            <input type="radio" id="Ace" name="drone" value="Ace" />
-            <label for="Ace">Ace</label>
+            <input type="radio" id="Pick-Up" name="drone" value="Pick-Up" />
+            <label for="Pick-Up">Pick-Up</label>
           </div>
         
           <div>
-            <input type="radio" id="King" name="drone" value="King" />
-            <label for="King">King</label>
-          </div>
-        
-          <div>
-            <input type="radio" id="Queen" name="drone" value="Queen" />
-            <label for="Queen">Queen</label>
+            <input type="radio" id="Devlivery" name="drone" value="Delivery" />
+            <label for="Delivery">Delivery</label>
           </div>
     </fieldset>
     
     <div>
         <label for="Name" >Name:</label>
-        <strong><abbr title="Required">*</abbr></strong>
         <input type="text" name="name" id="name" placeholder="Jane Doe">
     </div>
 
     <div>
         <label for="email" >E-mail:</label>
-        <strong><abbr title="Required">*</abbr></strong>
         <input type="text" name="password" id="email" placeholder="don't.care@gmail.com">
     </div>
 
     <div>
         <label for="password" >Password:</label>
-        <strong><abbr title="Required">*</abbr></strong>
         <input type="text" name="password" id="password" placeholder="8 or more Characters">
     </div>
 
@@ -72,7 +80,7 @@
 <input type="month" name="month" id="month">
 
 <div>
-    <button type="submit">Validate the payment</button>
+    <button type="submit">Submit</button>
 </div>
 
 </form>
