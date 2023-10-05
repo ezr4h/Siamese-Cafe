@@ -24,7 +24,7 @@
       <h1>Order information</h1>
 
     <fieldset>
-        <legend>How to you expect to recieve your order?</legend>
+        <legend>How do you expect to recieve your order?</legend>
        
         <div>
             <input type="radio" id="Pick-Up" name="drone" value="Pick-Up" />
@@ -39,17 +39,17 @@
     
     <div>
         <label for="Name" >Name:</label>
-        <input type="text" name="name" id="name" placeholder="Jane Doe">
+        <input type="text" name="name" id="name" placeholder="First, Last">
     </div>
 
     <div>
         <label for="email" >E-mail:</label>
-        <input type="text" name="password" id="email" placeholder="don't.care@gmail.com">
+        <input type="text" name="password" id="email">
     </div>
 
     <div>
-        <label for="password" >Password:</label>
-        <input type="text" name="password" id="password" placeholder="8 or more Characters">
+        <label for="password" >Phone:</label>
+        <input type="text" name="phone" id="phone">
     </div>
 
     <h2>Payment information</h2>
@@ -59,7 +59,6 @@
     <label for="card">
         <span>Card Type:</span>
     </label>
-    <strong><abbr title="Required">*</abbr></strong>
     <select name="usercard" id="card">
         <option value="visa">Visa</option>
         <option value="Mastercard">Mastercard</option>
@@ -71,12 +70,10 @@
 
 <div>
     <label for="Card#" >Card Number:</label>
-    <strong><abbr title="Required">*</abbr></strong>
     <input type="text" name="Card#" id="Card#" placeholder="1234 567 8900">
 </div>
 
-<label for="month">Order Date</label>
-<strong><abbr title="Required">*</abbr></strong>   
+<label for="month">Order Date</label> 
 <input type="month" name="month" id="month">
 
 <div>
